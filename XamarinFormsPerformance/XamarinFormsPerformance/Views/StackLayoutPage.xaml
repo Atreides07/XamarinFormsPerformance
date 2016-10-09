@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsPerformance.Views.StackLayoutPage">
+  <StackLayout Margin="10">
+    <StackLayout Orientation="Horizontal">
+      <Label WidthRequest="150" Text="Фамилия"></Label>
+      <Entry Placeholder="Иванов" WidthRequest="200"></Entry>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label WidthRequest="150" Text="Имя"></Label>
+      <Entry Placeholder="Иван" WidthRequest="200"></Entry>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label WidthRequest="150" Text="Отчество"></Label>
+      <Entry Placeholder="Иванович" WidthRequest="200"></Entry>
+    </StackLayout>
+  </StackLayout>
+</ContentPage>

@@ -29,5 +29,15 @@ namespace XamarinFormsPerformance
         {
             await Navigation.PushAsync(new SpacingPage());
         }
+
+        private async void StackLayout_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new StackLayoutPage());
+        }
+
+        private async void Grid_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GridPage());
+        }
     }
 }

@@ -13,7 +13,7 @@ namespace XamarinFormsPerformance
         {
             InitializeComponent();
 
-            MainPage = new XamarinFormsPerformance.MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

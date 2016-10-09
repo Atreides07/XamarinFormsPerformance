@@ -4,8 +4,10 @@
              xmlns:local="clr-namespace:XamarinFormsPerformance"
              x:Class="XamarinFormsPerformance.MainPage">
 
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+  <StackLayout>
+    <Button Text="Padding" Clicked="PaddingPage_OnClicked"></Button>
+    <Button Text="Margin" Clicked="MarginPage_OnClicked"></Button>
+    <Button Text="Spacing" Clicked="SpacingPage_OnClicked"></Button>
+  </StackLayout>
 
 </ContentPage>

@@ -5,6 +5,11 @@
   <Application.Resources>
 
     <!-- Application resource dictionary -->
+    <ResourceDictionary>
+      <Style TargetType="Label">
+        <Setter Property="FontSize" Value="24"></Setter>
+      </Style>
+    </ResourceDictionary>
 
   </Application.Resources>
 </Application>

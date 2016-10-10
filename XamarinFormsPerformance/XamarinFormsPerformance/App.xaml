@@ -3,13 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsPerformance.App">
   <Application.Resources>
-
-    <!-- Application resource dictionary -->
     <ResourceDictionary>
       <Style TargetType="Label">
         <Setter Property="FontSize" Value="24"></Setter>
-      </Style>
+        <!--<Setter Property="LineBreakMode" Value="NoWrap"></Setter>-->
+      </Style>      
     </ResourceDictionary>
-
   </Application.Resources>
 </Application>

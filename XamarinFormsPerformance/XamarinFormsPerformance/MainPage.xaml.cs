@@ -39,5 +39,10 @@ namespace XamarinFormsPerformance
         {
             await Navigation.PushAsync(new GridPage());
         }
+
+        private async void LabelLineBreakMode_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LabelLineBreakModePage());
+        }
     }
 }

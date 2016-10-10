@@ -10,6 +10,7 @@
     <Button Text="Spacing" Clicked="SpacingPage_OnClicked"></Button>
     <Button Text="StackLayout" Margin="0,10,0,0" Clicked="StackLayout_OnClicked"></Button>
     <Button Text="Grid" Clicked="Grid_OnClicked"></Button>
+    <Button Text="Label.LineBreakMode" Clicked="LabelLineBreakMode_OnClicked"></Button>
   </StackLayout>
 
 </ContentPage>
